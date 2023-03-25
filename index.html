@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--Determina o tipo de socumento-->
+<html lang="pt-br"> <!--Adiciona a linguagem ao site-->
+<head>              <!--Essa é a parte da cabeça do site-->
+    <meta charset="UTF-8"> <!--Determina o conjunto de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--adiciona compatibilidade de navegadores antigos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Essa tag ajusta e redimensiona a página para diferentes tamanhos de tela-->
+    <title>Portifolio</title> <!--Título da cabeça do site-->
+    <link rel="icon" href="https://assets.ifttt.com/images/channels/2107379463/icons/monochrome_large.png" type="image/png"> <!--Adicionar uma imagem a cabeç do site-->
+    <link rel="stylesheet" href="style.css"> <!--"rel" especifica o tipo de arquivo, "href" especifica onde esta o arquivo-->
+    <!-- <script src="javascript.js" defer></script> -->
+</head>
+<body>                 <!--Aqui é onde fica toda a informação do site-->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao"> <!--Serve para organizado todo conteúdo principal da página. Lembrando que só deve ser utilizado uma vez, para atribuir mais, use outras tags-->
+        <section  class="apresentacao__conteudo"> <!--Atribui uma seção dentro da tag pai-->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <!--"h1" serve para atribuir um título no site-->
+                <strong class="titulo-destaque">com um Front-end de qualidade! <!--"strong" serve para destacar uma parde do texto-->
+            </strong></h1>
+
+            <p class="apresentacao__conteudo__texto">Olá! Sou Ismael Santos, desenvolvedor <!--"p" é usado quando voce quer fazer um parágrafo-->
+            Front-end com especialidade em React, HTML e
+            CSS. Ajudo pequenos negócios e designers a
+            colocarem em prática boas ideias. Acesse meu GitHub e Linkedin para mais informação.
+            </p>
+
+            <div class="apresentacao__links"> <!--"div" é usado para para atribuir conteudo de fluxo, ex: estilo e atribuir class e id-->
+                <h2 style="font: bold 25px arial; color: var(--cor3);">Acesse minha redes abaixo:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/Ismael-Host" target="_blank"> 
+                    <img class="imagembot" src="https://assets.ifttt.com/images/channels/2107379463/icons/monochrome_large.png" alt="github">Github
+                </a> <!--"a" é usado para atribuir endereço utilizando "href". O "target" é utilizado para atribuir uma regra de redirecionamento-->
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/ismael-santos-831150252" target="_blank"> 
+                    <img class="imagembot" src="https://www.multiuniao.com.br/images/ICONE-Linkedin-Branco.png" alt="logo linkedin"> Linkedin
+                </a>
+            </div>
+        </section>
+        <img src="https://assets.ifttt.com/images/channels/2107379463/icons/monochrome_large.png" alt="Foto da Joana Santos programando">
+    </main>
+    <footer id="rodape">
+        <p>Desenvolvido por Ismael.</p> 
+    </footer>
+</body>
+</html>
