@@ -11,7 +11,7 @@ setInterval(function() {
   imagem.style.left = x + "px";
   imagem.style.top = y + "px";
   
-  // Detectar quando a imagem atinge as bordas do site
+  // Detectar quando a imagem atinge as bordas do site 
   if (x < 0 || x > (window.innerWidth - imagem.offsetWidth)) {
     velocidadeX *= -1;
   }
